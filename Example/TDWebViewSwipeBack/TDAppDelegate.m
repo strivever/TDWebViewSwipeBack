@@ -7,12 +7,15 @@
 //
 
 #import "TDAppDelegate.h"
-
+#import "TDViewController.h"
 @implementation TDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[TDViewController alloc]init];
+    [self.window makeKeyWindow];
     return YES;
 }
 
