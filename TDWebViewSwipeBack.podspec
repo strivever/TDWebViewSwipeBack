@@ -30,6 +30,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TDWebViewSwipeBack/Classes/*.{h,m}'
   
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'TDWebViewSwipeBack/Classes/**/*.h'
   s.frameworks = 'UIKit'
 end
