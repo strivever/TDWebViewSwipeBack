@@ -1,0 +1,6 @@
+framework module Pods_TDWebViewSwipeBack_Example {
+  umbrella header "Pods-TDWebViewSwipeBack_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

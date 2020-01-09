@@ -1,0 +1,16 @@
+PODS:
+  - TDWebViewSwipeBack (0.1.0)
+
+DEPENDENCIES:
+  - TDWebViewSwipeBack (from `../`)
+
+EXTERNAL SOURCES:
+  TDWebViewSwipeBack:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TDWebViewSwipeBack: cc1a5bbc2b60ea8cc094d3a1f3c81a0b176054ea
+
+PODFILE CHECKSUM: 795f52ab06274400c51a4e8f2faa839b670db400
+
+COCOAPODS: 1.8.4

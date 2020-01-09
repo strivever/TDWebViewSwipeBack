@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39FDD3476B15BC11B5CC0B6CDE6F5921 /* UIView+TDSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4543EC6DE0D77D61EEDF49B7604FB1E0 /* UIView+TDSnapshot.m */; };
+		402FDDA1B5F978ABB19D5407DE8909E2 /* UIViewController+GCWebViewSwipeBack.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D4C781A78FD00533A3F21663713C2 /* UIViewController+GCWebViewSwipeBack.m */; };
+		49A2247FDCAACF6532D85E88E289187D /* Pods-TDWebViewSwipeBack_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F494855524743286EA305A20679B9270 /* Pods-TDWebViewSwipeBack_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B201DC91AEDBD81E03A87D6302E089 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		4DF5668C721EE5D927216D0C8987ABE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		583915CC5F29CC62D7FE1959EF6129C8 /* Pods-TDWebViewSwipeBack_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD0E0D6EF2E9836C32B56160CF9A4D6 /* Pods-TDWebViewSwipeBack_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DFCED8AF5DC00153B094454E5B25F3 /* UIView+TDSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D29FA5E78424A6D9444CC1C572148D2 /* UIView+TDSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F29830F11782217D60B8FF96D457CC5 /* Pods-TDWebViewSwipeBack_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2451BE9F1DA5964A8773604D540FB1 /* Pods-TDWebViewSwipeBack_Tests-dummy.m */; };
+		8F2288C47216F0AD9EAD999F611336D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9DA59BDF85F78914F3CA8CACBFA87F93 /* TDWebViewSwipeBack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045C863FB946203667F3EBDC6C550069 /* TDWebViewSwipeBack-dummy.m */; };
+		B351B3D3224F44B2E50D986BA264B34C /* TDWebViewSwipeBack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC0B89B7DDF8F29CC3B52998629BE35 /* TDWebViewSwipeBack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB5CD93CDBEE6A22D1A1E83FC3DBE948 /* UIViewController+GCWebViewSwipeBack.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B47478C179EF1AB50FD82CC48924DA /* UIViewController+GCWebViewSwipeBack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21C896A6604B6BFF1E35489ACCA5CB2 /* Pods-TDWebViewSwipeBack_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E7A570B962619A6BA77ACCF06E5744 /* Pods-TDWebViewSwipeBack_Example-dummy.m */; };
+		D0BC53B32F84FCF61122A64497BAB228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		070A8C987190B03E83C43B41A6CE4393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E0EBBA62EDC0BC1C119938C1CB02FF;
+			remoteInfo = TDWebViewSwipeBack;
+		};
+		3ED02ABBCE3B8CCE8E06EC9CF0072339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBD82B17A5E5CEFFE3232A024BEC75F;
+			remoteInfo = "Pods-TDWebViewSwipeBack_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045C863FB946203667F3EBDC6C550069 /* TDWebViewSwipeBack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDWebViewSwipeBack-dummy.m"; sourceTree = "<group>"; };
+		0AD0E0D6EF2E9836C32B56160CF9A4D6 /* Pods-TDWebViewSwipeBack_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDWebViewSwipeBack_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0EB4647BC37CDA2EEA13AAE0193C4BF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0ED0A44654E017CA0F206E4C078DA350 /* TDWebViewSwipeBack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDWebViewSwipeBack.framework; path = TDWebViewSwipeBack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2451BE9F1DA5964A8773604D540FB1 /* Pods-TDWebViewSwipeBack_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDWebViewSwipeBack_Tests-dummy.m"; sourceTree = "<group>"; };
+		1D29FA5E78424A6D9444CC1C572148D2 /* UIView+TDSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TDSnapshot.h"; path = "TDWebViewSwipeBack/Classes/UIView+TDSnapshot.h"; sourceTree = "<group>"; };
+		26900D3C0CA75D07A24C64C95B4391D8 /* Pods-TDWebViewSwipeBack_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebViewSwipeBack_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3731A562D0FFF4075053FA1F4FDD41F2 /* Pods-TDWebViewSwipeBack_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDWebViewSwipeBack_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E0386A3D0E183328E2D7241F94A9812 /* Pods-TDWebViewSwipeBack_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebViewSwipeBack_Tests-Info.plist"; sourceTree = "<group>"; };
+		40AEE43D35CF833CC0248388219F65A0 /* Pods-TDWebViewSwipeBack_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDWebViewSwipeBack_Example-frameworks.sh"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44B47478C179EF1AB50FD82CC48924DA /* UIViewController+GCWebViewSwipeBack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GCWebViewSwipeBack.h"; path = "TDWebViewSwipeBack/Classes/UIViewController+GCWebViewSwipeBack.h"; sourceTree = "<group>"; };
+		452BA98162B757968C45F0857FEAF10C /* Pods-TDWebViewSwipeBack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebViewSwipeBack_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4543EC6DE0D77D61EEDF49B7604FB1E0 /* UIView+TDSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TDSnapshot.m"; path = "TDWebViewSwipeBack/Classes/UIView+TDSnapshot.m"; sourceTree = "<group>"; };
+		45F66E6D3C17880F7C689C5062D69DDD /* TDWebViewSwipeBack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDWebViewSwipeBack.xcconfig; sourceTree = "<group>"; };
+		4644FE9310823BCFDD1632B86FA62D5F /* TDWebViewSwipeBack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDWebViewSwipeBack.modulemap; sourceTree = "<group>"; };
+		48216E8D13B892A9887E0AEFFD4F99A7 /* Pods-TDWebViewSwipeBack_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDWebViewSwipeBack_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4912F3A7CFD2D4D0634CC9A5361E2F58 /* TDWebViewSwipeBack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebViewSwipeBack-prefix.pch"; sourceTree = "<group>"; };
+		5972BB4DBAD77612099231449E006EC4 /* TDWebViewSwipeBack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TDWebViewSwipeBack-Info.plist"; sourceTree = "<group>"; };
+		5C8B6DB1A148E38F3D45BD05621F4F2C /* Pods-TDWebViewSwipeBack_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebViewSwipeBack_Example-Info.plist"; sourceTree = "<group>"; };
+		6E0A5FE9163874D23C31DC9E26DD9EF1 /* Pods-TDWebViewSwipeBack_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDWebViewSwipeBack_Example.modulemap"; sourceTree = "<group>"; };
+		6E948ACFAF31E31517EC4C78E76CF043 /* Pods-TDWebViewSwipeBack_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebViewSwipeBack_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		914F44B8731C66D33E636A91D39A0574 /* Pods_TDWebViewSwipeBack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDWebViewSwipeBack_Example.framework; path = "Pods-TDWebViewSwipeBack_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991207F7035D5913521802872BA9C10D /* Pods-TDWebViewSwipeBack_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDWebViewSwipeBack_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACC0B89B7DDF8F29CC3B52998629BE35 /* TDWebViewSwipeBack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDWebViewSwipeBack-umbrella.h"; sourceTree = "<group>"; };
+		AD32F3F0B27D016B6D6F2E01DD142E5A /* Pods_TDWebViewSwipeBack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDWebViewSwipeBack_Tests.framework; path = "Pods-TDWebViewSwipeBack_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD7AA9FC9DE859241BE7678E88665C8 /* Pods-TDWebViewSwipeBack_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebViewSwipeBack_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA4D4C781A78FD00533A3F21663713C2 /* UIViewController+GCWebViewSwipeBack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+GCWebViewSwipeBack.m"; path = "TDWebViewSwipeBack/Classes/UIViewController+GCWebViewSwipeBack.m"; sourceTree = "<group>"; };
+		C2E7A570B962619A6BA77ACCF06E5744 /* Pods-TDWebViewSwipeBack_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDWebViewSwipeBack_Example-dummy.m"; sourceTree = "<group>"; };
+		C91546C5C6700864101F0B88C960CA9D /* Pods-TDWebViewSwipeBack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDWebViewSwipeBack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9CE77D9E5CEE9D47740DD87B9B0C3A9 /* TDWebViewSwipeBack.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TDWebViewSwipeBack.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4FDB2D4A7EA62B2A8A2150538AE057B /* Pods-TDWebViewSwipeBack_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDWebViewSwipeBack_Tests.modulemap"; sourceTree = "<group>"; };
+		EA5E10AA77C8BBC1E869E39DACB832C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F494855524743286EA305A20679B9270 /* Pods-TDWebViewSwipeBack_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDWebViewSwipeBack_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1047F7AEC36901C4B3D59B3049631AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BC53B32F84FCF61122A64497BAB228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B52AA69EB3353E975B748C41CE733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B201DC91AEDBD81E03A87D6302E089 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F71B6B807FD4EC044E64B4869854D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2288C47216F0AD9EAD999F611336D7 /* Foundation.framework in Frameworks */,
+				4DF5668C721EE5D927216D0C8987ABE7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E50D7FDADF5448EAAE9649830A0F3AB /* Pods-TDWebViewSwipeBack_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E0A5FE9163874D23C31DC9E26DD9EF1 /* Pods-TDWebViewSwipeBack_Example.modulemap */,
+				3731A562D0FFF4075053FA1F4FDD41F2 /* Pods-TDWebViewSwipeBack_Example-acknowledgements.markdown */,
+				991207F7035D5913521802872BA9C10D /* Pods-TDWebViewSwipeBack_Example-acknowledgements.plist */,
+				C2E7A570B962619A6BA77ACCF06E5744 /* Pods-TDWebViewSwipeBack_Example-dummy.m */,
+				40AEE43D35CF833CC0248388219F65A0 /* Pods-TDWebViewSwipeBack_Example-frameworks.sh */,
+				5C8B6DB1A148E38F3D45BD05621F4F2C /* Pods-TDWebViewSwipeBack_Example-Info.plist */,
+				F494855524743286EA305A20679B9270 /* Pods-TDWebViewSwipeBack_Example-umbrella.h */,
+				6E948ACFAF31E31517EC4C78E76CF043 /* Pods-TDWebViewSwipeBack_Example.debug.xcconfig */,
+				ADD7AA9FC9DE859241BE7678E88665C8 /* Pods-TDWebViewSwipeBack_Example.release.xcconfig */,
+			);
+			name = "Pods-TDWebViewSwipeBack_Example";
+			path = "Target Support Files/Pods-TDWebViewSwipeBack_Example";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23429FEB8095BF8A9F6032F9A9D65A98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4644FE9310823BCFDD1632B86FA62D5F /* TDWebViewSwipeBack.modulemap */,
+				45F66E6D3C17880F7C689C5062D69DDD /* TDWebViewSwipeBack.xcconfig */,
+				045C863FB946203667F3EBDC6C550069 /* TDWebViewSwipeBack-dummy.m */,
+				5972BB4DBAD77612099231449E006EC4 /* TDWebViewSwipeBack-Info.plist */,
+				4912F3A7CFD2D4D0634CC9A5361E2F58 /* TDWebViewSwipeBack-prefix.pch */,
+				ACC0B89B7DDF8F29CC3B52998629BE35 /* TDWebViewSwipeBack-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TDWebViewSwipeBack";
+			sourceTree = "<group>";
+		};
+		45F549671203DA959B110747A4F59C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914F44B8731C66D33E636A91D39A0574 /* Pods_TDWebViewSwipeBack_Example.framework */,
+				AD32F3F0B27D016B6D6F2E01DD142E5A /* Pods_TDWebViewSwipeBack_Tests.framework */,
+				0ED0A44654E017CA0F206E4C078DA350 /* TDWebViewSwipeBack.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B494FD4508BF041BD3DA7DFA87E7F86 /* Pods-TDWebViewSwipeBack_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FDB2D4A7EA62B2A8A2150538AE057B /* Pods-TDWebViewSwipeBack_Tests.modulemap */,
+				48216E8D13B892A9887E0AEFFD4F99A7 /* Pods-TDWebViewSwipeBack_Tests-acknowledgements.markdown */,
+				26900D3C0CA75D07A24C64C95B4391D8 /* Pods-TDWebViewSwipeBack_Tests-acknowledgements.plist */,
+				1A2451BE9F1DA5964A8773604D540FB1 /* Pods-TDWebViewSwipeBack_Tests-dummy.m */,
+				3E0386A3D0E183328E2D7241F94A9812 /* Pods-TDWebViewSwipeBack_Tests-Info.plist */,
+				0AD0E0D6EF2E9836C32B56160CF9A4D6 /* Pods-TDWebViewSwipeBack_Tests-umbrella.h */,
+				C91546C5C6700864101F0B88C960CA9D /* Pods-TDWebViewSwipeBack_Tests.debug.xcconfig */,
+				452BA98162B757968C45F0857FEAF10C /* Pods-TDWebViewSwipeBack_Tests.release.xcconfig */,
+			);
+			name = "Pods-TDWebViewSwipeBack_Tests";
+			path = "Target Support Files/Pods-TDWebViewSwipeBack_Tests";
+			sourceTree = "<group>";
+		};
+		567CF8A50E74D4E82A01C946BD47E341 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E10AA77C8BBC1E869E39DACB832C1 /* LICENSE */,
+				0EB4647BC37CDA2EEA13AAE0193C4BF8 /* README.md */,
+				C9CE77D9E5CEE9D47740DD87B9B0C3A9 /* TDWebViewSwipeBack.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		729BE6A0DFAB3F5422A9079AECA3D1D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B02C76C7CCA15988E5D86273505FBB0 /* TDWebViewSwipeBack */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B02C76C7CCA15988E5D86273505FBB0 /* TDWebViewSwipeBack */ = {
+			isa = PBXGroup;
+			children = (
+				1D29FA5E78424A6D9444CC1C572148D2 /* UIView+TDSnapshot.h */,
+				4543EC6DE0D77D61EEDF49B7604FB1E0 /* UIView+TDSnapshot.m */,
+				44B47478C179EF1AB50FD82CC48924DA /* UIViewController+GCWebViewSwipeBack.h */,
+				BA4D4C781A78FD00533A3F21663713C2 /* UIViewController+GCWebViewSwipeBack.m */,
+				567CF8A50E74D4E82A01C946BD47E341 /* Pod */,
+				23429FEB8095BF8A9F6032F9A9D65A98 /* Support Files */,
+			);
+			name = TDWebViewSwipeBack;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A68D4DC335ED6E33928447455345C5FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E50D7FDADF5448EAAE9649830A0F3AB /* Pods-TDWebViewSwipeBack_Example */,
+				4B494FD4508BF041BD3DA7DFA87E7F86 /* Pods-TDWebViewSwipeBack_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				729BE6A0DFAB3F5422A9079AECA3D1D6 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				45F549671203DA959B110747A4F59C7B /* Products */,
+				A68D4DC335ED6E33928447455345C5FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3378FCC0B2B9A039B01CEF3988D6BA7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B351B3D3224F44B2E50D986BA264B34C /* TDWebViewSwipeBack-umbrella.h in Headers */,
+				76DFCED8AF5DC00153B094454E5B25F3 /* UIView+TDSnapshot.h in Headers */,
+				BB5CD93CDBEE6A22D1A1E83FC3DBE948 /* UIViewController+GCWebViewSwipeBack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B27C23227EA1FE428D4EE40ACB12D8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583915CC5F29CC62D7FE1959EF6129C8 /* Pods-TDWebViewSwipeBack_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B486177D886FA573E366E5358249FE49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A2247FDCAACF6532D85E88E289187D /* Pods-TDWebViewSwipeBack_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05984EC3DA5708F47C56B6DE3E101286 /* Pods-TDWebViewSwipeBack_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF0097B3C3938BF440262613731FBA4 /* Build configuration list for PBXNativeTarget "Pods-TDWebViewSwipeBack_Tests" */;
+			buildPhases = (
+				3B27C23227EA1FE428D4EE40ACB12D8A /* Headers */,
+				AC6190DA997FE79228D1171750BAAC24 /* Sources */,
+				541B52AA69EB3353E975B748C41CE733 /* Frameworks */,
+				7CBA100CDE5EBF125F387936A4077F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEA49A3C4F4D22C2BE6206B6CCDE285 /* PBXTargetDependency */,
+			);
+			name = "Pods-TDWebViewSwipeBack_Tests";
+			productName = "Pods-TDWebViewSwipeBack_Tests";
+			productReference = AD32F3F0B27D016B6D6F2E01DD142E5A /* Pods_TDWebViewSwipeBack_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CBD82B17A5E5CEFFE3232A024BEC75F /* Pods-TDWebViewSwipeBack_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A545B6592D7239F847ECD3EB6DF4CFB3 /* Build configuration list for PBXNativeTarget "Pods-TDWebViewSwipeBack_Example" */;
+			buildPhases = (
+				B486177D886FA573E366E5358249FE49 /* Headers */,
+				8E292CF54DD5C353E9A0989886A66283 /* Sources */,
+				1047F7AEC36901C4B3D59B3049631AED /* Frameworks */,
+				193BB0A00113C75F5743665D72418869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA36B93204DFAC5751B18EF5D64774C /* PBXTargetDependency */,
+			);
+			name = "Pods-TDWebViewSwipeBack_Example";
+			productName = "Pods-TDWebViewSwipeBack_Example";
+			productReference = 914F44B8731C66D33E636A91D39A0574 /* Pods_TDWebViewSwipeBack_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5E0EBBA62EDC0BC1C119938C1CB02FF /* TDWebViewSwipeBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77246837936A132BF0AE0C4FD6539BBC /* Build configuration list for PBXNativeTarget "TDWebViewSwipeBack" */;
+			buildPhases = (
+				3378FCC0B2B9A039B01CEF3988D6BA7D /* Headers */,
+				292475666E81AEF043ED82A45449D402 /* Sources */,
+				B9F71B6B807FD4EC044E64B4869854D4 /* Frameworks */,
+				8084DD63CAE8BD6A2DA3B145AFA142EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDWebViewSwipeBack;
+			productName = TDWebViewSwipeBack;
+			productReference = 0ED0A44654E017CA0F206E4C078DA350 /* TDWebViewSwipeBack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 45F549671203DA959B110747A4F59C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBD82B17A5E5CEFFE3232A024BEC75F /* Pods-TDWebViewSwipeBack_Example */,
+				05984EC3DA5708F47C56B6DE3E101286 /* Pods-TDWebViewSwipeBack_Tests */,
+				F5E0EBBA62EDC0BC1C119938C1CB02FF /* TDWebViewSwipeBack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193BB0A00113C75F5743665D72418869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBA100CDE5EBF125F387936A4077F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8084DD63CAE8BD6A2DA3B145AFA142EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292475666E81AEF043ED82A45449D402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA59BDF85F78914F3CA8CACBFA87F93 /* TDWebViewSwipeBack-dummy.m in Sources */,
+				39FDD3476B15BC11B5CC0B6CDE6F5921 /* UIView+TDSnapshot.m in Sources */,
+				402FDDA1B5F978ABB19D5407DE8909E2 /* UIViewController+GCWebViewSwipeBack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E292CF54DD5C353E9A0989886A66283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21C896A6604B6BFF1E35489ACCA5CB2 /* Pods-TDWebViewSwipeBack_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6190DA997FE79228D1171750BAAC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F29830F11782217D60B8FF96D457CC5 /* Pods-TDWebViewSwipeBack_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA36B93204DFAC5751B18EF5D64774C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDWebViewSwipeBack;
+			target = F5E0EBBA62EDC0BC1C119938C1CB02FF /* TDWebViewSwipeBack */;
+			targetProxy = 070A8C987190B03E83C43B41A6CE4393 /* PBXContainerItemProxy */;
+		};
+		9DEA49A3C4F4D22C2BE6206B6CCDE285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TDWebViewSwipeBack_Example";
+			target = 3CBD82B17A5E5CEFFE3232A024BEC75F /* Pods-TDWebViewSwipeBack_Example */;
+			targetProxy = 3ED02ABBCE3B8CCE8E06EC9CF0072339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08AB4ACF2FE40034885EFEDCEF64109B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452BA98162B757968C45F0857FEAF10C /* Pods-TDWebViewSwipeBack_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Tests/Pods-TDWebViewSwipeBack_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Tests/Pods-TDWebViewSwipeBack_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26FB2D31FF46AF139D6EB2154BBEB601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91546C5C6700864101F0B88C960CA9D /* Pods-TDWebViewSwipeBack_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Tests/Pods-TDWebViewSwipeBack_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Tests/Pods-TDWebViewSwipeBack_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C110792F2284571C833B478A768C3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E948ACFAF31E31517EC4C78E76CF043 /* Pods-TDWebViewSwipeBack_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Example/Pods-TDWebViewSwipeBack_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Example/Pods-TDWebViewSwipeBack_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6DB7AB86126B87D6B936184A4740B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F66E6D3C17880F7C689C5062D69DDD /* TDWebViewSwipeBack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDWebViewSwipeBack/TDWebViewSwipeBack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDWebViewSwipeBack/TDWebViewSwipeBack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDWebViewSwipeBack/TDWebViewSwipeBack.modulemap";
+				PRODUCT_MODULE_NAME = TDWebViewSwipeBack;
+				PRODUCT_NAME = TDWebViewSwipeBack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0E5877290BA1EB6D2B40B6D14EBFA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F66E6D3C17880F7C689C5062D69DDD /* TDWebViewSwipeBack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDWebViewSwipeBack/TDWebViewSwipeBack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDWebViewSwipeBack/TDWebViewSwipeBack-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDWebViewSwipeBack/TDWebViewSwipeBack.modulemap";
+				PRODUCT_MODULE_NAME = TDWebViewSwipeBack;
+				PRODUCT_NAME = TDWebViewSwipeBack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1513C56805BCB9BB63870C98ADF413F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD7AA9FC9DE859241BE7678E88665C8 /* Pods-TDWebViewSwipeBack_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Example/Pods-TDWebViewSwipeBack_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDWebViewSwipeBack_Example/Pods-TDWebViewSwipeBack_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF0097B3C3938BF440262613731FBA4 /* Build configuration list for PBXNativeTarget "Pods-TDWebViewSwipeBack_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FB2D31FF46AF139D6EB2154BBEB601 /* Debug */,
+				08AB4ACF2FE40034885EFEDCEF64109B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77246837936A132BF0AE0C4FD6539BBC /* Build configuration list for PBXNativeTarget "TDWebViewSwipeBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E5877290BA1EB6D2B40B6D14EBFA88 /* Debug */,
+				D6DB7AB86126B87D6B936184A4740B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A545B6592D7239F847ECD3EB6DF4CFB3 /* Build configuration list for PBXNativeTarget "Pods-TDWebViewSwipeBack_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C110792F2284571C833B478A768C3C1 /* Debug */,
+				F1513C56805BCB9BB63870C98ADF413F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

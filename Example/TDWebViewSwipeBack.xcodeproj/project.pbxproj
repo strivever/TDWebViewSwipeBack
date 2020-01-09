@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		20B7AF1EB24AB737BD3F9809 /* Pods-TDWebViewSwipeBack_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDWebViewSwipeBack_Example.debug.xcconfig"; path = "Target Support Files/Pods-TDWebViewSwipeBack_Example/Pods-TDWebViewSwipeBack_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F3092F595E06A8AC9A1288E /* Pods_TDWebViewSwipeBack_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDWebViewSwipeBack_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FDAE46BCB385BBABA7280C2 /* TDWebViewSwipeBack.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TDWebViewSwipeBack.podspec; path = ../TDWebViewSwipeBack.podspec; sourceTree = "<group>"; };
+		3FDAE46BCB385BBABA7280C2 /* TDWebViewSwipeBack.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TDWebViewSwipeBack.podspec; path = ../TDWebViewSwipeBack.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		462B4CAA737F0D63F20E7089 /* Pods-TDWebViewSwipeBack_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDWebViewSwipeBack_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TDWebViewSwipeBack_Tests/Pods-TDWebViewSwipeBack_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E0BED7C6F3ADB97A5046F62 /* Pods_TDWebViewSwipeBack_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDWebViewSwipeBack_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TDWebViewSwipeBack_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDWebViewSwipeBack_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		822D9BE3779098BC66339E2E /* Pods-TDWebViewSwipeBack_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDWebViewSwipeBack_Tests.release.xcconfig"; path = "Target Support Files/Pods-TDWebViewSwipeBack_Tests/Pods-TDWebViewSwipeBack_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2CBAD9F6F378D582286CE6 /* Pods-TDWebViewSwipeBack_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDWebViewSwipeBack_Example.release.xcconfig"; path = "Target Support Files/Pods-TDWebViewSwipeBack_Example/Pods-TDWebViewSwipeBack_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2B3ABA4CB7F094FCEC8FA11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E76CC76E616F4147A1D3B414 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2B3ABA4CB7F094FCEC8FA11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E76CC76E616F4147A1D3B414 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				462B4CAA737F0D63F20E7089 /* Pods-TDWebViewSwipeBack_Tests.debug.xcconfig */,
 				822D9BE3779098BC66339E2E /* Pods-TDWebViewSwipeBack_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

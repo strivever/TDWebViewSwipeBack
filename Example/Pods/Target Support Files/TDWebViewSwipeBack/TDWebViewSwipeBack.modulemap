@@ -1,0 +1,6 @@
+framework module TDWebViewSwipeBack {
+  umbrella header "TDWebViewSwipeBack-umbrella.h"
+
+  export *
+  module * { export * }
+}
