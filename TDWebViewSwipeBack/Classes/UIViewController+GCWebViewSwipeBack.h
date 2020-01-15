@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class WKWebView;
 @protocol GCWebViewSwipeBackProtocol;
 @interface UIViewController (GCWebViewSwipeBack)
-- (void)addWkwebView:(id <GCWebViewSwipeBackProtocol>)webView swipeBackAble:(BOOL)canSwipeBack;
+- (void)addSwipeBackableForWebView:(id <GCWebViewSwipeBackProtocol>)webView;
 @end
 @protocol GCWebViewSwipeBackProtocol <NSObject>
 @property(nonatomic,getter=isHidden) BOOL              hidden; 

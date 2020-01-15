@@ -22,7 +22,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.wkWebView];
     [self.wkWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://dogedoge.com"]]];
-    [self addWkwebView:self.wkWebView swipeBackAble:YES];
+    [self addSwipeBackableForWebView:self.wkWebView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 #pragma mark ---getter
